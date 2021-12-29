@@ -76,7 +76,7 @@ trait SingletonDbConnect
     {
         $servername = "localhost";
         $username = "root";
-        $password = " ";
+        $password = "Qas6932";
         $dbname = "php_gb";
 
         // Создаем соединение
@@ -96,3 +96,4 @@ class dbConnect
 }
 
 $a = dbConnect::getInstance();
+var_dump($a);
